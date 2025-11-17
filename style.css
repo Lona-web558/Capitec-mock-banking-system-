@@ -1,0 +1,27 @@
+/* Custom Capitec-like styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Red accents */
+.text-danger, .btn-danger, .card-header.bg-danger {
+    color: #e3000b !important; /* Capitec Red */
+}
+.btn-danger {
+    background-color: #e3000b;
+    border-color: #e3000b;
+}
+.btn-danger:hover {
+    background-color: #a30008;
+    border-color: #a30008;
+}
+
+/* Account card hover effect (optional) */
+.account-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.account-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
